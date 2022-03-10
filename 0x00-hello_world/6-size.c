@@ -10,11 +10,11 @@ int main(void)
 	long int longInt;
 	long long int longLongInt;
 	char charSize;
-	printf("Size of a char: ",sizeof(charSize));
-	printf("Size of an int: ",sizeof(intSize));
-	printf("Size of a long int: ",sizeof(longInt));
-        printf("Size of a long long int: ",sizeof(longLongInt));
-        printf("Size of a float: ",sizeof(floatSize));
-return (0)	
+	printf("Size of a char: %zu byte(s)",sizeof(charSize));
+	printf("Size of an int: %zu byte(s)",sizeof(intSize));
+	printf("Size of a long int: %zu byte(s)",sizeof(longInt));
+        printf("Size of a long long int: %zu byte(s) ",sizeof(longLongInt));
+        printf("Size of a float: %zu byte(s)",sizeof(floatSize));
+return (0);	
 
 }
