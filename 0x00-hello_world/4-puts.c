@@ -1,6 +1,6 @@
 #include<stdio.h>
 #include<string.h>
-int main(void)//printing by puts
+int main(void)
 {
 char put[] = "\"Programming is like building a multilingual puzzle";
 puts(put);
