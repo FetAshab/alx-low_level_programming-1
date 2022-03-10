@@ -2,7 +2,6 @@
 #include<string.h>
 int main(void)
 {
-char put[] = "\"Programming is like building a multilingual puzzle";
-puts(put);
+puts("\"Programming is like building a multilingual puzzle");
 return (0);
 }
