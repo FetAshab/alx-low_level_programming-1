@@ -6,15 +6,15 @@
  */
 int main(void)
 {
-char small;
-while (small != 'q' || small != 'e')
-{
-	while (small <= 'z')
-	{
+char small = 'a';
+
+while (small <= 'z')
+	{if (small = 'e' || small == 'q')
+		continue;
 		putchar(small);
-	putchar('\n');
 	small++;
 	}
+	putchar('\n')
 }
 return (0);
 }
