@@ -1,6 +1,5 @@
 #include <stdlib.h>
 #include <time.h>
-#include<sdio.h>
 /**   
  * main - Entry point
  * return: always 0 (sucess) 
