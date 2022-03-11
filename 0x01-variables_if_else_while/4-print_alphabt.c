@@ -9,8 +9,11 @@ int main(void)
 char small = 'a';
 
 while (small <= 'z')
-	{if (small = 'e' || small == 'q')
+	{
+	if (small == 'e' || small == 'q')
+	{
 		continue;
+	}
 		putchar(small);
 	small++;
 	}
