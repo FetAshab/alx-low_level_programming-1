@@ -1,23 +1,28 @@
-
-#include<stdio.h>                                                              
+#include <stdio.h>
 /**
- * main - Entry point
+ * main - main block
  *
- * Return: Always 0 (sucess)
+ * Return: 0
  */
-int main(void){             
-	char capital = 'A';
-	char small = 'a';
-	while (small <= 'z')
-	{	
-	putchar(small);
-	small++;
-	}
-	while (capital <= 'Z')
+int main(void)
+{
+	char c = 'a';
+
+	while (c <= 'z')
 	{
-	putchar(capital);
-	capital++;
+	putchar(c);
+	c++;
 	}
+
+	c = 'A';
+
+	while (c <= 'Z')
+	{
+	putchar(c);
+	c++;
+	}
+
 	putchar('\n');
+
 	return (0);
 }
