@@ -1,13 +1,18 @@
-#include<stdio.h>
+#include <stdio.h>
+
 /**
- * main - Entry point
- * Return: Always 0 (success)
+ * main - Prints numbers from 0 to 9.
+ *
+ * Return: Always 0 (Success)
  */
 int main(void)
-{char num=0;
-	while(num <= 9)
-	{printf("$d\n",num);
-	num++;
-	}
-	Return(0);
+{
+		int i;
+
+	for (i = 0; i < 10; i++)
+	{
+	printf("%d", i);
+		}
+	putchar('\n');
+	return (0);
 }
