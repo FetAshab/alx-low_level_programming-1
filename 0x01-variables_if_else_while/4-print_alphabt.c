@@ -16,4 +16,5 @@ while (small != 'q' || small != 'e')
 	small++;
 	}
 }
+return (0);
 }
