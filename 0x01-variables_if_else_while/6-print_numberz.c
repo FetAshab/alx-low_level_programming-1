@@ -1,12 +1,18 @@
-#include<stdio.h>
+#include <stdio.h>
+
 /**
- * main - Entry point
- * Return: Always 0 (success)
+ * main - Prints numbers between 0 to 9.
+ *
+ * Return: Always 0 (Success)
  */
-int main()
-{char num = 0; 
-	while(num <= 9){
-		putchar(num);
-		putchar(\n);}
-	num++;
+int main(void)
+{
+		int i;
+
+	for (i = 48; i < 58; i++)
+	{
+	putchar(i);
+		}
+	putchar('\n');
+	return (0);
 }
