@@ -11,7 +11,7 @@ int main(void)
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	lastNo = n%10;
+	int lastNo = n%10;
 	printf("Last digit of %d is %d",lastNo);
 	return (0);
 }
