@@ -17,5 +17,6 @@ int main(void){
 	putchar(capital);
 	capital++;
 	}
+	putchar('\n');
 	return (0);
 }
