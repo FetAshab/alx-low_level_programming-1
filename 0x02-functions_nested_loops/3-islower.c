@@ -1,11 +1,11 @@
 #include "main.h"
-#include<ctype.h>
 /**
  * _islower - using proto type
+ * lowercase charachter Anaothercase 
  * @c - The parameter  c passed
- * Return: Always 0 (success)
+ * Return: 1 when true 0 for false (success)
  */
-int _islower(int c)
+int _islower(int c) d
 {
 if (c > 'a' && c <= 'z')
 {
