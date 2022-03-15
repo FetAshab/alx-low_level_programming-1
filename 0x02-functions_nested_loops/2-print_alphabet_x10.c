@@ -1,7 +1,6 @@
-#include<stdio.h>
 #include "main.h"
 /**
- * main - printing a-z 10x
+ * print_alphabet_x10 - printing a-z 10x
  *
  * Return: Always 0 (sucess)
  */
@@ -14,9 +13,9 @@ void print_alphabet_x10(void);
 	{
 		for (j = a ; j <= z ; j++)
 		{
-		putchar(i);
+		_putchar(i);
 		}
-		putchar('\n');
+		_putchar('\n');
 	}
 	return (0);
 }
