@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  *print_sign - prints the sign
- *greater, iequal or lwssthean zero.
+ *-1 is lessthan zero
  *@n: receives parameter n
  *Return + for positive - for negative 0 for zero
  */
