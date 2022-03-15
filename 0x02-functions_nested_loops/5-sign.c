@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  *print_sign - prints the sign
- *@print_sign: printsigns
+ *greater, iequal or lwssthean zero.
  *@n: receives parameter n
  *Return + for positive - for negative 0 for zero
  */
