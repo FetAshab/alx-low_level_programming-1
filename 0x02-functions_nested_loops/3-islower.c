@@ -5,7 +5,7 @@
  * @c - The parameter  c passed
  * Return: 1 when true 0 for false (success)
  */
-int _islower(int c) d
+int _islower(int c) 
 {
 if (c > 'a' && c <= 'z')
 {
