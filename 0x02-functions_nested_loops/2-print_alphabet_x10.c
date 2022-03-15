@@ -1,10 +1,11 @@
 #include<stdio.h>
+#include "main.h"
 /**
  * main - printing a-z 10x
  *
  * Return: Always 0 (sucess)
  */
-int main(void)
+void print_alphabet_x10(void);
 {
 	int i;
 	int j;
@@ -18,4 +19,9 @@ int main(void)
 		putchar('\n');
 	}
 	return (0);
+}
+int main(void)
+{
+print_alphabet_x10();
+return (0);
 }
