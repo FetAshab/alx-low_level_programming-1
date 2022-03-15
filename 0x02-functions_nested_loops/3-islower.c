@@ -1,7 +1,6 @@
 #include "main.h"
 /**
  * _islower - using proto type
- * lowercase charachter Anaothercase 
  * @c - The parameter  c passed
  * Return: 1 when true 0 for false (success)
  */
