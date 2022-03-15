@@ -1,6 +1,6 @@
 #include "main.h"
 #include<ctype.h>
-/*
+/**
  * _islower - using proto type
  *
  * Return: Always 0 (success)
