@@ -1,9 +1,8 @@
 #include "main.h"
 /**
  *print_sign - prints the sign
- *-1 is lessthan zero
  *@n: receives parameter n
- *Return + for positive - for negative 0 for zero
+ *Return: + for positive - for negative 0 for zero
  */
  int print_sign(int n)
  {
