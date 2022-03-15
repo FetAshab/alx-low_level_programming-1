@@ -2,7 +2,7 @@
 #include<ctype.h>
 /**
  * _islower - using proto type
- *
+ * c - The parameter passed
  * Return: Always 0 (success)
  */
 int _islower(int c)
