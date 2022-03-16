@@ -1,4 +1,4 @@
-ifendf main.h
+ifndf main.h
 define _main.h
 
 
