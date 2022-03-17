@@ -2,5 +2,5 @@ ifndef main.h
 define _main.h
 
 
-positive_or_negative()
+void positive_or_negative(int i);
 endif
