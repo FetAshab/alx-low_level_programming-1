@@ -1,34 +1,33 @@
 #include "main.h"
 
 /**
- * main - Prints numbers between 00 to 99.
+ * print_triangle - prints triangle
  *
- * Return: Always 0 (Success)
+ * @size: size of triangle
  */
-int main(void)
+void print_triangle(int size)
 {
-	int i, e;
+	int i;
+	int j;
+	int k;
 
-	i = 48;
-	e = 48;
-
-	while (e < 58)
+	if (size <= 0)
 	{
-		i = 48;
-		while (i < 58)
+		_putchar('\n');
+	} else
+	{
+
+		for (i = 1; i <= size; i++)
 		{
-			putchar(e);
-			putchar(i);
-			if (i == 57 && e == 57)
+			for (j = size - i ; j > 0; j--)
 			{
-				break;
+				_putchar(' ');
 			}
-			putchar(',');
-			putchar(' ');
-			i++;
+			for (k = 0; k < i; k++)
+			{
+				_putchar('#');
+			}
+			_putchar('\n');
 		}
-		e++;
 	}
-	putchar('\n');
-	return (0);
 }
