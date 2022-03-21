@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * function reset_to_98 - assigning n
+ * reset_to_98 - assigning n
  * @n: passed parameter
  * Return: Always (0)
  */
