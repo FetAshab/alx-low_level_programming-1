@@ -1,5 +1,4 @@
 #include "main.h"
-#include<stdio.h>
 /**
  * _strlen - The length of the string
  * @s: parameter passed 
