@@ -1,3 +1,4 @@
+#include<stdio.h>
 #include "main.h"
 /*
  *_strcat(char *dest, char *src) - concatinate two string
