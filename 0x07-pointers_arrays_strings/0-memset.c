@@ -1,15 +1,17 @@
 #include "main.h"
 /**
- * _memset - Assigns number of arrays by some variable
- * @s: parameter to store the array name
- * @b: parameter to store the value to be assigned
- * @n: parameter to store how much value is assigned
- * Return: the assigned array
+ * _memset - fills memory with a constant byte,
+ * @s: memory area.
+ * @b: constant byte.
+ * @n: bytes filled.
+ * Return: the pointer to dest.
  */
-char *_memset(char *s, char b, unsigned int n);
+char *_memset(char *s, char b, unsigned int n)
 {
-for(unsigned int i=0;i<n;i++)
-*(s+i)=b;
+	unsigned int i;
 
-  return (s);
+	for (i = 0; i < n; i++)
+		*(s + i) =  b;
+
+	return (s);
 }
