@@ -1,15 +1,17 @@
-#include "main.h"
+#include "holberton.h"
 /**
- * _memcpy - copys the array
- * @dest: recives the array
- * @src: sends the array
- * @n: how much of it
- * Returns: dest
+ * _memcpy - copies memory area,
+ * @dest: destination memory area.
+ * @src: source memory area.
+ * @n: bytes filled.
+ * Return: the pointer to dest.
  */
-void *_memcpy(char *dest,char *src,unsigned int n)
+char *_memcpy(char *dest, char *src, unsigned int n)
 {
-for(unsigned int i=0;i<n;i++)
-dest[i]=src[i];
-  
-return (dest);
-}
+	unsigned int i;
+
+	for (i = 0; i < n; i++)
+		*(dest + i) =  *(src + i);
+
+	return (dest);
+
