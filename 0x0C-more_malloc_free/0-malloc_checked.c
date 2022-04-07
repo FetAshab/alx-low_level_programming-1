@@ -1,5 +1,5 @@
 #include "main.h"
-#include "stdlib.h"
+#include <stdlib.h>
 /**
  * malloc_checked - exit 98if null
  * @b: parmaetr passed
