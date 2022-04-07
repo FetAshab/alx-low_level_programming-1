@@ -3,7 +3,8 @@
 /**
  * malloc_checked - exit 98if null
  * @b: parmaetr passed
- * Return: the parameter if not null 
+ * Return: the pointer if not null 
+ * if mallloc fails, Return value 98
  */
 void *malloc_checked(unsigned int b)
 {
