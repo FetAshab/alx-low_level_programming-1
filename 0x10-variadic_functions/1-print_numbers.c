@@ -2,7 +2,7 @@
 /**
  *print_numbers - prints number with separator.
  *@separator: string to separate numbers.
- *
+ *@n: the size of numbers.
  *returns: the numbers.
  */
 
