@@ -3,20 +3,19 @@
  *print_numbers - prints number with separator.
  *@separator: string to separate numbers.
  *@n: the size of numbers.
- *returns: the numbers.
+ *returns: nothing.
  */
 
 void print_numbers(const char *separator, const unsigned int n, ...){
-unsigned int i;
-va_list ap;
+ va_list valist;
+ unsigned int i;
 
-va_start(ap,n);
 
-if (separator == NULL)
-separator = "";
+va_start(valist,n);
+
 for(i = 0; i < n; i++)
  {
- printf("%d",va_arg(ap,int));
+ printf("%d",va_arg(valist,int));
  if (i < (n-1))
  printf("%s",separator);
  }
