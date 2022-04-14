@@ -10,7 +10,7 @@ int sum_them_all(const unsigned int n, ...)
     if (n == 0)
     return 0;
     else
-    {
+    
     va_list ap;
 
     va_start (ap ,n);
@@ -24,6 +24,6 @@ int sum_them_all(const unsigned int n, ...)
     return sum;
 
     va_end(ap);
-    }
+    
 
     }
