@@ -1,4 +1,4 @@
-#include "main.h"
+#include "lists.h"
 /**
  *print_list - prints the list and the size.
  *@h: passed list.
