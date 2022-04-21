@@ -6,7 +6,7 @@
  */
 
 size_t print_list(const  list_t *h)
-{int i, char *s;
+{int i;
   while (h)
 {
   if (!h->str)
