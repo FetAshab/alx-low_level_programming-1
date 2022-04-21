@@ -3,7 +3,7 @@
  *print_list - prints the list and the size.
  *@h: passed list.
  *
- *return: the the nodes.
+ *Return: the the nodes.
  */
 size_t print_list(const  list_t *h)
 {
