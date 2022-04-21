@@ -7,12 +7,14 @@
  */
 
 size_t list_len(const list_t *h)
-{int i = 0;
-while (h)
 {
-if(h->str)
-h = h->next;
-i++;
-}
-return (i);
+	int i = 0;
+	
+	while (h)
+	{
+		if(h->str)
+			h = h->next;
+		i++;
+	}
+	return (i);
 }
