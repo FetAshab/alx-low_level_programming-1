@@ -1,7 +1,7 @@
 global _start
-section .text
 
 _start:
+section .txt
 mov eax, 0x04
 mov ebx, 1
 mov ecx, message
