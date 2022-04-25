@@ -3,7 +3,7 @@
  *print_listint - prints the data
  *@h: parameter passed
  *
- * return: the nodes
+ * Return: the nodes
  */
 
 size_t print_listint(const listint_t *h)
