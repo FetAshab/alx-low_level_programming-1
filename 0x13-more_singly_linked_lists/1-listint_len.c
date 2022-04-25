@@ -1,9 +1,10 @@
 #include "lists.h"
+
 /**
- *listint_len - returns the nodes
- *@h: parameter passed(head)
+ *listint_len - returns the nodes.
+ *@h: parameter passed(head).
  *
- *return: the number of the nodes
+ *Return: the number of the nodes.
  */ 
 size_t listint_len(const listint_t *h)
 {
@@ -14,5 +15,5 @@ while(h)
     h = h->next;
     a++;
 }
-    return a;
+    return (a);
 }
