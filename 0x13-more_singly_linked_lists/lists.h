@@ -1,12 +1,9 @@
 
-#ifndef __print__
-#define __print__
-
+#ifndef __list__
+#define __list__
 
 #include <stdio.h>
 #include <stdlib.h>
-#include <stdlib.h>
-
 /**
  * struct listint_s - singly linked list
  * @n: integer
@@ -20,5 +17,5 @@ typedef struct listint_s
 	    int n;
 	        struct listint_s *next;
 } listint_t;
-print_listint();
+size_t print_listint(const listint_t *h);
 #endif
