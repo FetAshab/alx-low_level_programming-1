@@ -1,6 +1,6 @@
-#include <lists.h>
+#include "lists.h"
 /**
- *0-print_listint.c - prints the data
+ *print_listint - prints the data
  *@h: parameter passed
  *
  * return: the nodes
